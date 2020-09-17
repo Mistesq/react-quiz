@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './FinishedQuiz.module.scss';
-import Button from '../UI/Button/Button'
+import Button from '../UI/Button/Button';
+import {Link} from 'react-router-dom';
 
 const FineshedQuiz = (props) => {
   const successCount = Object.keys(props.results).reduce((total, key) => {
@@ -35,7 +36,9 @@ const FineshedQuiz = (props) => {
 
       <div>
         <Button onClick={props.onRetry} type="primary">Retry</Button>
-        <Button type="success">Go to the list of tests</Button>
+        <Link to="/" >
+          <Button type="success">Go to the list of tests</Button>
+        </Link>
       </div>
     </div>
   );
