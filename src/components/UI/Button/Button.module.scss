@@ -10,6 +10,19 @@
     font-size: 12px;
 }
 
+.Button.success {
+    background: rgba(161, 240, 69, 1);
+}
+
+.Button.error {
+    background: rgba(240, 87, 108, 1);
+}
+
+.Button.primary {
+    background: rgba(23, 161, 216, 1);
+    color: #fff;
+}
+
 .Button:focus {
     outline: none;
 }
@@ -22,17 +35,4 @@
     background-color: #ccc;
     color: black;
     cursor: not-allowed;
-}
-
-.Button.success {
-    background: rgba(161, 240, 69, 1);
-}
-
-.Button.error {
-    background: rgba(240, 87, 108, 1);
-}
-
-.Button.primary {
-    background: rgba(23, 161, 216, 1);
-    color: #fff;
 }
