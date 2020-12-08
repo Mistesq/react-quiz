@@ -1,6 +1,8 @@
 ### Deployed project:
 https://react-quiz-e278d.firebaseapp.com/
 
+### Stack: React, Redux, Redux-thunk, axios, scss, firebase
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
